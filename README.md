@@ -361,7 +361,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(790.2037
             end
         end)
 
-    local Toggle = Tabs.Main:AddToggle("Auto Random fruit Gem", {Title = "Auto Random fruit Gem", Default = false })
+    local Toggle = Tabs.Fruit:AddToggle("Auto Random fruit Gem", {Title = "Auto Random fruit Gem", Default = false })
     Toggle:OnChanged(function(Random)
         _G.Fruit2 = Random
         while _G.Fruit2 do wait()
